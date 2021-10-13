@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./challange.css">
+    <title>Blackjack Game</title>
+    
+</head>
+<body>
+    
+    <div class="container" ><h1>challange: Blackjack</h1>
+        <h3 id="blackjack-result">Let's play</h3>
+        <div class="flex-blackjack-row-1">
+            <div class="your-box" id="your-box"><h2>you:<span id="your-blackjack-score">0</span></h2></div>
+            <div class="dealer-box" id="dealer-box"><h2>Dealer:<span id="dealer-blackjack-score">0</span></h2></div>
+        </div>
+        <div class="flex-blackjack-row-2">
+            <div>
+            <button class="btn btn-Hit" id="blackjack-hit-btn">Hit</button>
+            <button class="btn btn-Stand" id="blackjack-stand-btn">Stand</button>
+            <button class="btn btn-deal" id="blackjack-deal-btn">Deal</button>
+            </div>
+        </div>
+        <div class="flex-blackjack-row-3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draw</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    
+    <script src="challenge.js"></script>
+</body>
+</html>
