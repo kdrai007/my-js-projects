@@ -60,3 +60,4 @@ Resetbtn.addEventListener('click', function () {
         document.querySelector('.turn').textContent = "Turn of " + turn;
     }
 })
+//kdrai
