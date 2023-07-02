@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and morty</title>
+    <script defer src="./script.js"></script>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        #eyes,
+        #eyes img {
+            position: absolute;
+        }
+
+        .eye {
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <img id="anchor" src="./morty.png">
+        <div id="eyes">
+            <img class="eye" src="eyes.png" style="top: -154px;left: 203px;">
+            <img class="eye" src="eyes.png" style="top: -154px;left: 111px;">
+            <img class="eye" src="eyes.png" style="top: 111px;left: -72px;">
+            <img class="eye" src="eyes.png" style="top: 130px;left: -199px;">
+        </div>
+    </main>
+
+
+</body>
+
+</html>

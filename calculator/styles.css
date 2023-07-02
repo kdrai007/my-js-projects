@@ -1,0 +1,26 @@
+.row input {
+  margin: 50px 0px 10px 0px;
+  display: block;
+  padding: 8px 25px;
+  font-size: 15px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  align-items: center;
+}
+.row button {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
